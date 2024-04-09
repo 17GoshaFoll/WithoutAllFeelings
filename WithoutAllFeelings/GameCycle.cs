@@ -13,7 +13,7 @@ public class GameCycle : Model
     private int horizontalRightSpeed = 10;
     private int horizontalLeftSpeed = 10;
 
-    private Vector2 pos = new(300, 300);
+    private Vector2 pos = new(0, 1000);
 
     public void Update()
     {
