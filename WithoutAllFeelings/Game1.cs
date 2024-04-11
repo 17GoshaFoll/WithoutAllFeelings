@@ -91,6 +91,8 @@ public class Game1 : Game, IGameplayView
                         Exit();
                         break;
                     }
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
         }
 
